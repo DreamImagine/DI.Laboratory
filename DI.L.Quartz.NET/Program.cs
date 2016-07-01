@@ -44,7 +44,6 @@ namespace DI.L.Quartz.NET
                 // and start it off
                 scheduler.Start();
 
-
                 IJobDetail job = JobBuilder.Create<ShiftNotify>()
                     .WithIdentity("job1", "group1")
                     .Build();
@@ -61,12 +60,8 @@ namespace DI.L.Quartz.NET
 
                 scheduler.ScheduleJob(job, trigger);
 
-
-
                 // some sleep to show what's happening
                 Thread.Sleep(TimeSpan.FromSeconds(60));
-
-
 
 
                 // and last shut down the scheduler when you are ready to close your program
