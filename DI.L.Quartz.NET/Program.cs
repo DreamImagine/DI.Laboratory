@@ -34,6 +34,9 @@ namespace DI.L.Quartz.NET
 
 
             // http://www.quartz-scheduler.net/documentation/quartz-2.x/quick-start.html
+
+
+            // http://www.quartz-scheduler.net/documentation/quartz-2.x/tutorial/crontriggers.html
             try
             {
                 Common.Logging.LogManager.Adapter = new Common.Logging.Simple.ConsoleOutLoggerFactoryAdapter { Level = Common.Logging.LogLevel.Info };
