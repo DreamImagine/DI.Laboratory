@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI.L.Quartz.NET", "DI.L.Qua
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DI.L.Changeable.Manage", "DI.L.Changeable.Manage\DI.L.Changeable.Manage.xproj", "{3572D0BB-41B7-4CAF-B855-EE0BEE423341}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DI.L.Changeable.Entity", "DI.L.Changeable.Entity\DI.L.Changeable.Entity.xproj", "{8D5D5386-D864-46E0-9914-3CF1717ECE53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3572D0BB-41B7-4CAF-B855-EE0BEE423341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3572D0BB-41B7-4CAF-B855-EE0BEE423341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3572D0BB-41B7-4CAF-B855-EE0BEE423341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5D5386-D864-46E0-9914-3CF1717ECE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5D5386-D864-46E0-9914-3CF1717ECE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5D5386-D864-46E0-9914-3CF1717ECE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5D5386-D864-46E0-9914-3CF1717ECE53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
